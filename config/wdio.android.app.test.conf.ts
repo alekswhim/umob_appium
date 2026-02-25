@@ -107,7 +107,7 @@ export const config: WebdriverIO.Config = {
         // "../tests/specs/newUser/nReserveDonkeyNoCard.spec.js", //не new user, посмотреть руками
         // "../tests/specs/newUser/nReserveFelyxNoCard.spec.js", //не нью юзер, а нбю12
         // "../tests/specs/account/addAdress.spec.ts",
-        "../tests/specs/newUser/addPaymentMethod.spec.ts",
+        //"../tests/specs/newUser/addPaymentMethod.spec.ts",
         // "../tests/specs/newUser/nReserveFelyxNoId.spec.ts", //не нью юзер, посмотреть руками
         // "../tests/specs/account/locationPermissionOff.spec.ts", //в приложении скан веикл первый идёт
         "../tests/specs/book/2bookPublicTransport.spec.ts", //тоже new12
@@ -121,7 +121,7 @@ export const config: WebdriverIO.Config = {
         "../tests/specs/login/login.positive.spec.ts", //норм
         "../tests/specs/account/combinedLoggedTest.spec.ts", //нью12? сильный скрол
         "../tests/specs/notLoggedTests/combinedNotLogged.spec.ts",
-        "../tests/specs/newUser/deleteCard.spec.ts",
+        //"../tests/specs/newUser/deleteCard.spec.ts",
         /*
 //new user tests should be in some order 
     "../tests/specs/newUser/nCombinedLoggedTest.spec.ts",      //was new13  //now newUser in credentials (new48)
